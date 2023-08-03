@@ -1,0 +1,123 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    background: url(../1.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+#nav1
+{
+    height:50px ;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.3); 
+    margin-top: -16px;
+    color: white;
+    line-height: 43px;
+    font-size: 16px;
+}
+#nav1 ul li
+{
+    
+    list-style: none;
+    display: inline-block;
+    padding-right: 10px;
+}
+#li1
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    
+}
+#li2
+{
+    margin-left: 750px;
+}
+#nav1 ul li:hover
+{
+    color: burlywood;
+}
+
+
+/*      Form         */
+
+
+form
+{
+    height: 545px;
+    width: 350px;
+    background:rgba(0, 0, 0, 0.5);
+    color: white;
+    float: right;
+    margin-top: 15px;
+    margin-right: 25px;
+    line-height: 35px;
+    padding: 0px 20px;
+    border-radius: 10px;
+    padding-top: 12px;
+}
+input
+{
+    height: 25px;
+    width: 200px;
+    border-radius: 8px;
+}
+input::placeholder
+{
+    padding-left: 10px;
+}
+#name
+{
+    margin-left: 59px;
+}
+#age
+{
+    margin-left: 71px;
+}
+#dob
+{
+    margin-left: 56px;
+}
+#pnum
+{
+    margin-left: 8px;
+}
+#email
+{
+    margin-left: 35px;
+}
+#pass
+{
+    margin-left: 52px;
+}
+#cpass
+{
+    margin-left: 0px;
+}
+
+button
+{
+    margin-left: 110px;
+    border: 0.5px solid white;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    height: 30px;
+    width: 100px;
+}
+button:hover
+{
+    margin-left: 110px;
+    border: 0.5px solid white;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    height: 30px;
+    width: 100px;
+}
+span
+{
+    color: red;;
+}

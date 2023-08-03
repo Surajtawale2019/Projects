@@ -1,0 +1,99 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    background: url(../2.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#nav1
+{
+    height:50px ;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+    margin-top: -16px;
+    color: white;
+    line-height: 43px;
+    font-size: 16px;
+}
+#nav1 ul li
+{
+    
+    list-style: none;
+    display: inline-block;
+    padding-right: 10px;
+}
+#li1
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    
+}
+#li2
+{
+    margin-left: 750px;
+}
+#nav1 ul li:hover
+{
+    color: burlywood;
+}
+
+
+    /*     C1 Div    */
+
+.c1
+{
+    color: white;
+    margin-top: 150px;
+    height: 300px;
+    width: 520px;
+    margin-left: auto;
+    line-height: 5px;
+}
+.c1 ul li
+{
+    display: inline-block;
+    margin-left: 20px;
+}
+.p1
+{
+    color: ghostwhite;
+    margin-left: 30px;
+}
+button
+{
+    height: 30px;
+    width: 100px;
+    background-color: transparent;
+    border: 0.1px solid white;
+    margin-left: 20px;
+    color: white;
+    margin-top: 35px;
+    border-radius: 5px;
+}
+.b1
+{
+    margin-left: 86px;
+    background-color: white;
+    color: black;
+}
+.b1:hover
+{
+    margin-left: 86px;
+    border-radius: 8px;
+    background-color: transparent;
+}
+.b2
+{
+    border-radius: 5px;
+}
+.b2:hover
+{
+    border-radius: 8px;
+    color: black;
+}
+a
+{
+    color: black;
+    text-decoration: none;
+}

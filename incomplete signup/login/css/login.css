@@ -1,0 +1,24 @@
+body
+{
+    background: url(../1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.right
+{
+    height: 200px;
+    width: 200px;
+    background-color: beige;
+
+}
+
+form
+{
+    height: 300px;
+    width: 200px;
+    background-color: beige;
+    position: relative;
+    top: -110px;
+    left: 900px;
+}

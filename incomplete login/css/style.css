@@ -1,0 +1,81 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    color: antiquewhite;
+    background: url(../photo/city.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.loginbox{
+    width: 320px;
+    height: 420px;
+    background: rgba(0,0,0,.6);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 30px 30px;
+}
+
+h1{
+    margin: 0;
+    padding:0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.loginbox input{
+    width: 200px;
+    margin-bottom: 30px;
+}
+
+.loginbox input[type="text"],input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    background: transparent;
+    font-size: 16px;
+    height: 50px;
+}
+
+.loginbox input[type="text"]
+{
+    color: aqua;
+}
+.loginbox input[type="password"]
+{
+    color: lightsalmon;
+}
+
+.loginbox input[type="sumbit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: red;
+    color: aliceblue;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.loginbox input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: lightgreen;
+    color: black;
+}
+
+.loginbox a{
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 12px;
+    color: red;
+}
+.loginbox a:hover{
+    color: aqua;
+}
